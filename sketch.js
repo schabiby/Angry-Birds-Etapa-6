@@ -1,3 +1,7 @@
+var arr=[1,12,3,14,5]
+console.log(arr)
+
+
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
