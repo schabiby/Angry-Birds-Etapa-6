@@ -9,6 +9,43 @@ var backgroundImg,platform;
 var bird, slingshot;
 
 
+var cadena ="es una cadena"
+console.log(cadena)
+
+var num= 10
+console.log(num)
+
+var bool= true
+console.log(bool)
+
+var object
+console.log(object)
+
+object= null
+console.log(object)
+
+
+var arr1 =[1,2,3,4,5]
+console.log(arr1)
+
+var arr2 =["nombre",12,true]
+console.log(arr2)
+
+
+var arr3= [[1,2],[2,3],[3,4]]
+console.log(arr3)
+
+
+console.log(arr3[0])
+
+console.log(arr3[0][1])
+
+arr3.push("mi nombre");
+console.log(arr3)
+
+arr3.pop()
+console.log(arr3)
+
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
 }
