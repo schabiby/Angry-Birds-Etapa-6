@@ -1,3 +1,10 @@
+var arr=[1,12,3,14,5]
+console.log(arr)
+
+var arr2=[[1,0,12],[7,-3,2],[-5,2,1]]
+console.log(arr2[0][1])
+
+
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
